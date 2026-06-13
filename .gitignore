@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF
+dependencies.lock
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# LVGL
+lvgl/
+components/lvgl/
